@@ -8,8 +8,8 @@
 ======================
 """
 import unittest
-from unittest_exercise.lib import HTMLTestRunnerNew
-from unittest_exercise.scripts.context import CASES_PATH, REPORT_FILE
+from lib import HTMLTestRunnerNew
+from scripts.context import CASES_PATH, REPORT_FILE
 
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()

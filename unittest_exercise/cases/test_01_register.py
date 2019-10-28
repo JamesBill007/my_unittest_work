@@ -8,10 +8,10 @@
 ======================
 """
 import unittest
-from unittest_exercise.lib import ddt
-from unittest_exercise.scripts.read_excel import ReadExcel
-from unittest_exercise.scripts.register import register
-from unittest_exercise.scripts.context import DATA_PATH_FILE
+from lib import ddt
+from scripts.read_excel import ReadExcel
+from scripts.register import register
+from scripts.context import DATA_PATH_FILE
 
 @ddt.ddt
 class TestRegister(unittest.TestCase):
