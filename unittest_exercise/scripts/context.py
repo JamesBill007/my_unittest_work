@@ -19,3 +19,6 @@ DATA_PATH_FILE = os.path.join(DATA_PATH, "register_data.xlsx")
 REPORT = os.path.join(BASE_PATH, "report")
 REPORT_FILE = os.path.join(REPORT, "report.html")
 # print(REPORT_FILE)
+LOG_PATH = os.path.join(BASE_PATH, "log")
+
+LOG_PATH_FILE = os.path.join(LOG_PATH, "log.log")
